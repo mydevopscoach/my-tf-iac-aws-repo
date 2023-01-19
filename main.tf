@@ -13,6 +13,6 @@ provider "aws" {
   shared_credentials_file = "/root/samba/.aws/credentials"
 }
 # Create a VPC
-resource "aws_vpc" "examp2222le" {
+resource "aws_vpc" "exam222le" {
   cidr_block = "10.0.0.0/16"
 }
