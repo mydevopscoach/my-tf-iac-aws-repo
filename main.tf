@@ -16,4 +16,4 @@ provider "aws" {
 resource "aws_vpc" "exa222le" {
   cidr_block = "10.0.0.0/16"
 }
-# this is modified for pull request, again 
+# this is modified for pull request, again secound time.
