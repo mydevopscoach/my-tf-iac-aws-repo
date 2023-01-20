@@ -16,4 +16,9 @@ provider "aws" {
 resource "aws_vpc" "exa222le" {
   cidr_block = "10.0.0.0/16"
 }
-# this is modified for pull request, again 
+
+# Create an EC2 instance
+resource "aws_instance" "RHEL by terraform" {
+  ami           = "ami-08e637cea2f053dfa"
+  instance_type = "t2.micro"
+}
